@@ -5,6 +5,8 @@ class Dog extends Pet {
         super(name, furColor);
 
         this.voice = 'Au au!';
+        this.loyal = true;
+        this.likesPlayingWithBall = true;
     }
 }
 
